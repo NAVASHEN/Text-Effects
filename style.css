@@ -1,1 +1,39 @@
- background: radial-gradient(#13152c, #04050e);
+ * {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", Verdana, sans-serif;
+        box-sizing: border-box;
+      }
+      section {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        overflow: hidden;
+         background: radial-gradient(#13152c, #04050e);
+      }
+      section .text {
+        position: relative;
+        text-align: center;
+        color: #fff;
+        margin: 40px;
+        max-width: 650px;
+      }
+      section .text span {
+        position: relative;
+        display: inline-block;
+      }
+      .copyright {
+        position: absolute;
+        top: 55%;
+        left: 25%;
+        z-index: 1000;
+        height: 1000px;
+        width: 1000px;
+        color: white;
+        font-family: "Poppins", verdana, sans-serif;
+        font-size: 500%;
+        opacity: 0.5;
+        transform: skew(0deg, -15deg) translateY(-180px);
+      }
